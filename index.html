@@ -14,14 +14,53 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <nav>
-                <ul class="menu">
-                    <li class="img"><img src="img/logo.png" alt="Paris"></li>
+
+    <header>
 
 
-                    <li><i class="fas fa-home fa-fw"></i><a href="#"> Principal</a></li>
+        <nav class="desktop-nav">
+
+            <ul class="menu">
+                <li class="img"><img src="img/logo.png" alt="Paris"></li>
+
+
+                <li><i class="fas fa-home fa-fw"></i><a href="#"> Principal</a></li>
+
+                <li> <a href="#">Qui Som?</a></li>
+
+
+                <li> <a href="#">A que et puc ajudar</a></li>
+
+                <li> <a href="#">Penjar la teva imatge</a></li>
+
+
+                <li> <a href="#">Registrate</a></li>
+
+                <li> <a href="#">Sign in</a> </li>
+
+                <li> <a href="#">Altres</a> </li>
+
+
+            </ul>
+
+        </nav>
+
+        <nav class="mobile-nav">
+
+            <!-- <li class="img"><img src="img/logo.png" alt="Paris"></li>-->
+
+            <div class="open-menu">
+
+                <i class="fas fa-bars" onclick="openMenu()"> </i>
+
+
+            </div>
+
+            <div class="opened-menu" id="opened-menu">
+
+                <ul>
+
+                    <li><a href="#"><i class="fas fa-home fa-fw"></i>Principal</a></li>
 
                     <li> <a href="#">Qui Som?</a></li>
 
@@ -37,25 +76,29 @@
 
                     <li> <a href="#">Altres</a> </li>
 
-
                 </ul>
 
-            </nav>
 
 
-        </header>
-    </div>
+            </div>
+
+
+
+
+
+
+        </nav>
+
+
+
+    </header>
+
     <hr>
 
 
-    <div class="general2">
-
-
-
-
-        <nav class="lateral-I">
-
-            <div class="lateral-I">
+    <div class="flex-container">
+        <div class="first-col">
+            <nav class="lateral-I">
                 <ul>
                     <li>
                         <h2>
@@ -83,92 +126,98 @@
 
 
                 </ul>
-            </div>
-        </nav>
 
+            </nav>
 
-
-        <div class="article-c">
-            <article>
-                <div class="caixa">
-                    <h2>
-                        Lorem
-                    </h2>
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facilis repellendus
-                        dignissimos
-                        quam,
-                        aliquid eveniet voluptatibus nam vero porro fuga qui blanditiis, odio sapiente molestias,
-                        dolorum optio?
-                        Magni, modi ab.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facilis repellendus
-                        dignissimos
-                        quam,
-                        aliquid eveniet voluptatibus nam vero porro fuga qui blanditiis, odio sapiente molestias,
-                        dolorum
-                        optio?
-                        Magni, modi ab.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perferendis nesciunt esse exercitationem minima animi repellat delectus enim laborum! Molestiae,
-                        aut?
-                        Magnam rerum repudiandae nisi incidunt a quidem minus ea perspiciatis?
-
-                    </p>
-                    <hr>
-
-                </div>
-                <div class="caixa">
-
-                    <h2>
-                        Lorem
-                    </h2>
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facilis repellendus
-                        dignissimos
-                        quam,
-                        aliquid eveniet voluptatibus nam vero porro fuga qui blanditiis, odio sapiente molestias,
-                        dolorum
-                        optio?
-                        Magni, modi ab.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perferendis nesciunt esse exercitationem minima animi repellat delectus enim laborum! Molestiae,
-                        aut?
-                        Magnam rerum repudiandae nisi incidunt a quidem minus ea perspiciatis?
-                    </p>
-
-                    <hr>
-
-
-                </div>
-                <div class="caixa">
-
-                    <h2>
-                        Lorem
-                    </h2>
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facilis repellendus
-                        dignissimos
-                        quam,
-                        aliquid eveniet voluptatibus nam vero porro fuga qui blanditiis, odio sapiente molestias,
-                        dolorum
-                        optio?
-                        Magni, modi ab.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perferendis nesciunt esse exercitationem minima animi repellat delectus enim laborum! Molestiae,
-                        aut?
-                        Magnam rerum repudiandae nisi incidunt a quidem minus ea perspiciatis?
-                    </p>
-
-                </div>
-            </article>
         </div>
 
-        <div class="aside-div">
 
-            <aside class="aside">
+        <div class="second-col">
+
+            <article class="caixa">
+
+                <h2>
+                    Lorem
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facilis repellendus
+                    dignissimos
+                    quam,
+                    aliquid eveniet voluptatibus nam vero porro fuga qui blanditiis, odio sapiente molestias,
+                    dolorum optio?
+                    Magni, modi ab.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facilis repellendus
+                    dignissimos
+                    quam,
+                    aliquid eveniet voluptatibus nam vero porro fuga qui blanditiis, odio sapiente molestias,
+                    dolorum
+                    optio?
+                    Magni, modi ab.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis nesciunt esse exercitationem minima animi repellat delectus enim laborum! Molestiae,
+                    aut?
+                    Magnam rerum repudiandae nisi incidunt a quidem minus ea perspiciatis?
+
+                </p>
+                <hr>
+
+            </article>
+            <article class="caixa">
+
+                <h2>
+                    Lorem
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facilis repellendus
+                    dignissimos
+                    quam,
+                    aliquid eveniet voluptatibus nam vero porro fuga qui blanditiis, odio sapiente molestias,
+                    dolorum
+                    optio?
+                    Magni, modi ab.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis nesciunt esse exercitationem minima animi repellat delectus enim laborum! Molestiae,
+                    aut?
+                    Magnam rerum repudiandae nisi incidunt a quidem minus ea perspiciatis?
+                </p>
+
+                <hr>
+
+
+            </article>
+            <article class="caixa">
+
+                <h2>
+                    Lorem
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facilis repellendus
+                    dignissimos
+                    quam,
+                    aliquid eveniet voluptatibus nam vero porro fuga qui blanditiis, odio sapiente molestias,
+                    dolorum
+                    optio?
+                    Magni, modi ab.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis nesciunt esse exercitationem minima animi repellat delectus enim laborum! Molestiae,
+                    aut?
+                    Magnam rerum repudiandae nisi incidunt a quidem minus ea perspiciatis?
+                </p>
+
+            </article>
+
+        </div>
+
+
+
+
+        <div class="third-col">
+
+
+            <aside class="aside-div">
 
                 <ul class="aside-d">
                     <li>
@@ -192,18 +241,50 @@
 
                 </ul>
             </aside>
+
         </div>
-
     </div>
 
-    <div class="peu">
+
+    <footer class="peu">
+        <p>Publicat el 20 de novembre de 2021</p>
+        <p>2021 Copyrigt by www.marcel.es -All Rights Reserved</p>
+    </footer>
 
 
-        <footer>
-            <p>Publicat el 20 de novembre de 2021</p>
-            <p>2021 Copyrigt by www.marcel.es -All Rights Reserved</p>
-        </footer>
-    </div>
+    <script>
+
+
+        function openMenu() {
+            const mobMenu = document.getElementById("opened-menu");
+
+
+            if (mobMenu.classList.contains("opened")) {
+
+                mobMenu.classList.remove("opened");
+
+                mobMenu.style.display = "none";
+
+            } else {
+
+                mobMenu.classList.add("opened");
+
+                mobMenu.style.display = "flex";
+
+
+
+
+
+            }
+
+
+
+
+        }
+
+
+
+    </script>
 </body>
 
 </html>
