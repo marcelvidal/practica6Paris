@@ -5,8 +5,9 @@
 
 body {
 
-    width: 100%;
+height: 100vh;
 
+font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -15,6 +16,9 @@ a:link, a:visited, a:active {
     color: inherit;
 }
 
+hr{
+  border-top: 3px solid black;
+}
 
 .menu {
     /*PARE*/
@@ -24,7 +28,6 @@ a:link, a:visited, a:active {
     background-color: #008B8B;
 
 }
-
 
 
 .mobile-nav {
@@ -40,9 +43,13 @@ a:link, a:visited, a:active {
 
 
 .menu li {
+
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 5px 20px;
+    width: 500px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
     background-color: silver;
     font-weight: bold;
     color: black;
@@ -54,10 +61,10 @@ a:link, a:visited, a:active {
 
     display: flex;
     flex-direction: row;
-    margin-top: 80px;
     width: 100%;
     justify-content: center;
-
+    background-image:  url("img/fondo.jpg");
+background-color: transparent;
 
 }
 
@@ -121,8 +128,17 @@ li {
 
 
 .caixa {
+
     width: 100%;
     margin-bottom: 100px;
+}
+
+.caixa img{  /*CENTRAR IMATGE EN EL CSS ES FA DESTA MANER PERQUE REPRESENTA QUE LA IMATGE ES INLINE*/
+    display:block;
+    margin:auto;
+    height: 100vh;
+    width: 80%;
+ 
 }
 
 
@@ -134,9 +150,7 @@ li img {
 }
 
 
-.peu {
-    display: flex;
-}
+
 
 footer {
     background-color: black;
